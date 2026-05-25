@@ -13,6 +13,8 @@ export default defineConfig({
       server: { entry: "server" },
     }),
     viteReact(),
-    nitro(),
+    nitro({
+      preset: "vercel",
+    }),
   ],
 });
