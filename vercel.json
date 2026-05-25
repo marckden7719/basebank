@@ -1,6 +1,6 @@
 {
-  "framework": "vite",
+  "framework": "other",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/client",
+  "outputDirectory": ".output/public",
   "installCommand": "npm install"
 }
